@@ -1,0 +1,102 @@
+.header {
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+    padding: 0 15%;
+    position: relative;
+    z-index: 1;
+    .wrapper {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .left-section {
+            display: flex;
+            align-items: center;
+            .brand {
+                img {
+                    width: 65px;
+                    height: auto;
+                    position: absolute;
+                    top: 0;
+                }
+            }
+            .nav {
+                display: inline-block;
+                align-items: center;
+                margin-left: 90px;
+                .nav-item {
+                    display: inline-block;
+                    margin-right: 15px;
+                    cursor: pointer;
+                }
+            }
+            .nav-menu {
+                display: none;
+            }
+        }
+        .right-section {
+            display: flex;
+            align-items: center;
+            .search-icon {
+                width: 15px;
+                height: auto;
+                cursor: pointer;
+                margin-right: 15px;
+            }
+            .dropdown-container {
+                cursor: pointer;
+                .inline {
+                    display: inline-block;
+                    margin-left: 15px;
+                }
+                .yellow-dot {
+                    width: 7px;
+                    height: 7px;
+                    border-radius: 100%;
+                    background-color: #ffcc01;
+                }
+                .text {
+                    margin-left: 10px;
+                }
+                .arrow-down-icon {
+                    width: 8px;
+                    height: auto;
+                    margin-left: 5px;
+                    position: relative;
+                    top: 1px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .header {
+        padding: 0 2%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        .wrapper {
+            .left-section {
+                .nav {
+                    display: none;
+                }
+                .nav-menu {
+                    display: inline-block;
+                    margin-left: 90px;
+                    cursor: pointer;
+                    img {
+                        width: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
