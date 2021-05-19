@@ -23,11 +23,11 @@ export class MtnCarouselComponent implements OnInit {
       gap: 15,
       perView: 5,
       breakpoints: {
-        1600: {
-          perView: 3
+        1366: {
+          perView: 5
         },
-        1024: {
-          perView: 2
+        1080: {
+          perView: 3
         },
         600: {
           perView: 1
