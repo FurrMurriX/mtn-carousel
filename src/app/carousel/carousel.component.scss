@@ -1,0 +1,73 @@
+.wrap {
+  padding-top: 100px;
+  .glide__slides {
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: center;
+    .glide__slide {
+      background-color: #f5f5f5;
+      border-radius: 5px;
+      line-height: 80px;
+      margin: 0;
+      font-size: 20px;
+      text-align: center;
+      height: 280px;
+      img {
+        display: block;
+        width: 150px;
+        margin: 45px auto 25px auto;
+        background-color: #ccc;
+      }
+      .start-here {
+        display: none;
+      }
+    }
+    .glide__slide.glide__slide--active {
+      height: 350px;
+      border-bottom: 5px solid #ffcc01;
+      font-size: 22px;
+      font-weight: 600;
+      box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+      .start-here {
+        display: block;
+        font-size: 10px;
+        font-weight: 800;
+        cursor: pointer;
+        span {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+  .glide__arrow {
+    border-radius: 100%;
+    border: none;
+    box-shadow: none;
+    background-color: #000;
+  }
+  .glide__arrow--left {
+    left: 28%;
+    top: unset;
+    bottom: -40px;
+  }
+  .glide__arrow--right {
+    right: 28%;
+    top: unset;
+    bottom: -40px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .wrap { 
+      .glide {
+        .glide__track{
+          margin: 0 15px;
+          .glide__slides {
+            .glide__slide.glide__slide--active{
+              box-shadow: none;
+            }
+          }
+        }
+      }
+  }
+}
