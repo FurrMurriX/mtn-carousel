@@ -3,10 +3,6 @@ import { Component, OnInit } from '@angular/core';
 // Glide
 import Glide from '@glidejs/glide';
 
-// Import GSAP
-// import { gsap, TweenMax } from "gsap";
-// import { Draggable } from "gsap/Draggable";
-
 @Component({
   selector: 'app-carousel',
   templateUrl: './carousel.component.html',
