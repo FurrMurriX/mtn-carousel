@@ -36,9 +36,6 @@
                     font-weight: 400;
                 }
             }
-            .nav-menu {
-                display: none;
-            }
         }
         .right-section {
             display: flex;
@@ -73,6 +70,9 @@
                     position: relative;
                     top: 1px;
                 }
+            }
+            .nav-menu {
+                display: none;
             }
         }
     }
