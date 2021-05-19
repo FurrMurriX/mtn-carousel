@@ -18,7 +18,7 @@
             align-items: center;
             .brand {
                 img {
-                    width: 65px;
+                    width: 96px;
                     height: auto;
                     position: absolute;
                     top: 0;
@@ -27,11 +27,13 @@
             .nav {
                 display: inline-block;
                 align-items: center;
-                margin-left: 90px;
+                margin-left: 130px;
                 .nav-item {
                     display: inline-block;
-                    margin-right: 15px;
+                    margin-right: 40px;
                     cursor: pointer;
+                    font-size: 16px;
+                    font-weight: 400;
                 }
             }
             .nav-menu {
@@ -61,6 +63,8 @@
                 }
                 .text {
                     margin-left: 10px;
+                    font-size: 12px;
+                    font-weight: 400;
                 }
                 .arrow-down-icon {
                     width: 8px;
