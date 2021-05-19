@@ -3,7 +3,6 @@
     "lib": {
         "entryFile": "public_api.ts"
     },
-    "whitelistedNonPeerDependencies": [
-        "@glidejs/glide"
-    ]
+    "allowedNonPeerDependencies": ["@glidejs/glide"],
+    "whitelistedNonPeerDependencies": ["@glidejs/glide"]
 }
