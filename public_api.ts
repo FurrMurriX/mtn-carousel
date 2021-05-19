@@ -1,0 +1,1 @@
+export * from './src/app/mtn-carousel/mtn-carousel.module'

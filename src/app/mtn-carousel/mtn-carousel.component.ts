@@ -4,11 +4,11 @@ import { Component, OnInit } from '@angular/core';
 import Glide from '@glidejs/glide';
 
 @Component({
-  selector: 'app-carousel',
-  templateUrl: './carousel.component.html',
-  styleUrls: ['./carousel.component.scss']
+  selector: 'mtn-carousel',
+  templateUrl: './mtn-carousel.component.html',
+  styleUrls: ['./mtn-carousel.component.scss']
 })
-export class CarouselComponent implements OnInit {
+export class MtnCarouselComponent implements OnInit {
 
   constructor() { }
 
