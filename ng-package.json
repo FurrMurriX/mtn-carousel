@@ -3,5 +3,5 @@
     "lib": {
         "entryFile": "public_api.ts"
     },
-    "allowedNonPeerDependencies": ["@glidejs/glide"]
+    "allowedNonPeerDependencies": ["@glidejs/glide", "@angular/animations"]
 }
