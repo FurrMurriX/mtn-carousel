@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="131px" height="22px" viewBox="0 0 131 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>9F83AF15-063C-4A2A-83D1-C9779AC038D5</title>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.4" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="129" height="20" rx="10"></rect>
+        <filter x="-4.7%" y="-30.0%" width="109.3%" height="160.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="4" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="MVP-1---What-are-you-here-to-do?" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.1366" transform="translate(-1138.000000, -37.000000)">
+            <g id="navigation_PRIMARY---Logged-In" transform="translate(0.000000, 8.000000)">
+                <g id="Group-7" transform="translate(1139.000000, 30.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <g id="Rectangle">
+                        <use fill="#FAFAFA" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <use fill-opacity="0.08" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                        <rect stroke="#F5F5F5" stroke-width="1" x="-0.5" y="-0.5" width="130" height="21" rx="10"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

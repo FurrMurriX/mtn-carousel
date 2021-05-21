@@ -71,6 +71,22 @@
                     top: 1px;
                 }
             }
+            .slider-container {
+                .inline {
+                  font-size: 8px;
+                  display: inline-block;
+                  padding: 10px 0 5px 0;
+                  margin-left: 15px;
+                  border-radius: 10px;
+                  opacity: 0.5;
+                  &.active {
+                    opacity: 1;
+                    height: 18px;
+                    width: 64px;
+                    border-radius: 9px;
+                  }
+                }
+              }
             .nav-menu {
                 display: none;
             }
